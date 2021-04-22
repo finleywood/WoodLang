@@ -6,7 +6,7 @@
 int main(int argc, char** argv)
 {   
     if(argc < 3){
-        printf("Invalid number of arguments %d", argc);
+        printf("Invalid number of arguments %d\n", argc);
         return 1;
     }
     else if(strcmp(argv[1], "read") == 0){
